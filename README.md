@@ -1,1 +1,1 @@
-  <a href="https://codecov.io/github/vuejs/vue?branch=dev"><img
+  <a href="https://codecov.io/github/vuejs/vue?branch=dev"></a>
