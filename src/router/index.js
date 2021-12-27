@@ -10,6 +10,16 @@ const routes = [
   //   name: "Home",
   //   component: Home
   // },
+  {
+    path: "/button",
+    name: "button",
+    component: () => import("../view/button.vue"),
+  },
+  {
+    path: "/input",
+    name: "input",
+    component: () => import("../view/input.vue"),
+  },
   // {
   //   path: "/about",
   //   name: "About",
@@ -22,7 +32,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
 });
 
 export default router;
